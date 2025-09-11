@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Smartphone, ArrowLeft, Calendar, User } from "lucide-react";
+import { Smartphone, ArrowLeft, Calendar, User, ExternalLink } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const articles = [
@@ -13,7 +13,8 @@ const articles = [
     author: "Mobile Founders Community",
     authorHandle: "",
     readTime: "10 min read",
-    tags: ["Meta Ads", "Facebook Ads", "Mobile Marketing", "User Acquisition", "Creative Strategy"]
+    tags: ["Meta Ads", "Facebook Ads", "Mobile Marketing", "User Acquisition", "Creative Strategy"],
+    isExternal: false
   },
   {
     id: "ab-testing-app-screenshots",
@@ -23,7 +24,32 @@ const articles = [
     author: "Filip Kowalski",
     authorHandle: "@filippkowalski",
     readTime: "8 min read",
-    tags: ["ASO", "A/B Testing", "PPO", "Mobile Marketing", "Screenshot Testing"]
+    tags: ["ASO", "A/B Testing", "PPO", "Mobile Marketing", "Screenshot Testing"],
+    isExternal: false
+  },
+  {
+    id: "viral-tiktok-marketing",
+    title: "Viral TikTok Marketing Knowledge Base",
+    description: "Complete guide to creating viral TikTok content, understanding the algorithm, and leveraging TikTok for mobile app marketing and user acquisition.",
+    date: "January 2025",
+    author: "Mobile Founders Community",
+    authorHandle: "",
+    readTime: "External Resource",
+    tags: ["TikTok Marketing", "Viral Content", "Social Media", "User Acquisition", "Content Strategy"],
+    isExternal: true,
+    externalUrl: "https://swanky-stretch-643.notion.site/Viral-TikTok-Marketing-Knowledge-Base-14c59fc7986c80c2a9a9feb6c128fe28"
+  },
+  {
+    id: "paywalls-knowledge",
+    title: "Paywalls Knowledge Base",
+    description: "Comprehensive guide to implementing and optimizing paywalls for mobile apps. Best practices, strategies, and case studies for subscription monetization.",
+    date: "January 2025",
+    author: "Mobile Founders Community", 
+    authorHandle: "",
+    readTime: "External Resource",
+    tags: ["Paywalls", "Subscription", "Monetization", "Revenue", "Mobile Apps"],
+    isExternal: true,
+    externalUrl: "https://swanky-stretch-643.notion.site/Paywalls-Knowledgebase-15259fc7986c80e283a8de787431d057"
   }
 ];
 
@@ -57,8 +83,8 @@ export default function KnowledgeBase() {
         </header>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {articles.map((article) => (
-            <Link key={article.id} href={`/knowledge/${article.id}`}>
+          {articles.map((article) => {
+            const CardComponent = () => (
               <Card className="h-full hover:shadow-md transition-shadow cursor-pointer border hover:border-primary/20">
                 <CardHeader>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
@@ -67,9 +93,14 @@ export default function KnowledgeBase() {
                     <span>•</span>
                     <span>{article.readTime}</span>
                   </div>
-                  <CardTitle className="text-xl leading-tight hover:text-primary transition-colors">
-                    {article.title}
-                  </CardTitle>
+                  <div className="flex items-center gap-2">
+                    <CardTitle className="text-xl leading-tight hover:text-primary transition-colors flex-1">
+                      {article.title}
+                    </CardTitle>
+                    {article.isExternal && (
+                      <ExternalLink className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                    )}
+                  </div>
                   <CardDescription className="text-muted-foreground leading-relaxed">
                     {article.description}
                   </CardDescription>
@@ -102,8 +133,24 @@ export default function KnowledgeBase() {
                   </div>
                 </CardContent>
               </Card>
-            </Link>
-          ))}
+            );
+
+            return article.isExternal ? (
+              <a
+                key={article.id}
+                href={article.externalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <CardComponent />
+              </a>
+            ) : (
+              <Link key={article.id} href={`/knowledge/${article.id}`}>
+                <CardComponent />
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>
