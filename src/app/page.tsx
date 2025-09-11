@@ -159,6 +159,13 @@ export default function Home() {
                 <span className="text-muted-foreground mt-4 block text-sm">
                   We encourage active participation and knowledge sharing among members.
                 </span>
+                <div className="mt-4 p-4 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-md">
+                  <p className="text-sm text-amber-800 dark:text-amber-200">
+                    <strong>Please note:</strong> We&apos;re quite selective with new members to maintain high-quality discussions. 
+                    We prioritize depth over growth speed to ensure our community remains focused on meaningful conversations 
+                    about mobile development, ASO, and marketing strategies.
+                  </p>
+                </div>
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
