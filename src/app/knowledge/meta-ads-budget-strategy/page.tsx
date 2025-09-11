@@ -29,8 +29,8 @@ const structuredData = {
       "url": "https://mobile-founders.com/logo.png"
     }
   },
-  "datePublished": "2025-01-11T00:00:00.000Z",
-  "dateModified": "2025-01-11T00:00:00.000Z",
+  "datePublished": "2025-09-11T00:00:00.000Z",
+  "dateModified": "2025-09-11T00:00:00.000Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://mobile-founders.com/knowledge/meta-ads-budget-strategy"
@@ -65,7 +65,7 @@ export default function MetaAdsBudgetStrategy() {
             <header className="not-prose mb-12">
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
                 <Calendar className="h-4 w-4" />
-                January 11, 2025
+                September 11, 2025
                 <span>•</span>
                 <span>12 min read</span>
               </div>
