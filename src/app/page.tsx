@@ -1,4 +1,4 @@
-import { Smartphone, BookOpen, Users } from "lucide-react";
+import { Smartphone } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 export default function Home() {
@@ -6,22 +6,6 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground font-sans overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-muted/30 to-muted/30" />
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-16">
-        <nav className="flex justify-center gap-4 mb-16">
-          <Link 
-            href="/knowledge"
-            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground border border-border rounded-md hover:bg-muted/50 transition-colors"
-          >
-            <BookOpen className="h-4 w-4" />
-            [KNOWLEDGE_BASE]
-          </Link>
-          <Link 
-            href="/join"
-            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground border border-border rounded-md hover:bg-muted/50 transition-colors"
-          >
-            <Users className="h-4 w-4" />
-            [JOIN_COMMUNITY]
-          </Link>
-        </nav>
 
         <header className="text-center">
           <div className="flex justify-center items-center gap-4 mb-8">
