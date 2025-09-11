@@ -362,20 +362,6 @@ export default function MetaAdsBudgetStrategy() {
                 </div>
               </section>
 
-              <section>
-                <h2 className="text-2xl font-semibold text-foreground mb-6">Community Discussion</h2>
-                
-                <p className="text-base leading-relaxed mb-4">
-                  This article captures insights from an active discussion in the Mobile Founders Slack community. The thread was so valuable that the community decided to preserve it as a permanent knowledge base resource.
-                </p>
-
-                <div className="bg-muted/30 p-4 rounded-md border">
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    <strong>Want to join the discussion?</strong> These insights come from real practitioners actively scaling mobile apps with Meta Ads. 
-                    Join the Mobile Founders community to participate in similar high-quality discussions about mobile marketing, ASO, and growth strategies.
-                  </p>
-                </div>
-              </section>
             </div>
           </article>
         </div>
