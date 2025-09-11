@@ -6,6 +6,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const articles = [
   {
+    id: "meta-ads-budget-strategy",
+    title: "Meta Ads Budget Strategy: Expert Insights from $10K+ Spenders",
+    description: "Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies based on community discussion.",
+    date: "January 11, 2025",
+    author: "Ivan Sparrow & Thomas BCN",
+    authorHandle: "@ivesparrowai",
+    readTime: "12 min read",
+    tags: ["Meta Ads", "Budget Planning", "Campaign Strategy", "User Acquisition", "Community Insights"],
+    isExternal: false
+  },
+  {
     id: "meta-ads-marketing-resources",
     title: "Meta Ads Marketing Resources: The Complete Knowledge Base",
     description: "A comprehensive collection of 30+ Meta Ads strategies, case studies, tools, and insights from top mobile marketing experts and practitioners.",
