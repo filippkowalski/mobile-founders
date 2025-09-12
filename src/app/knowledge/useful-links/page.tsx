@@ -11,8 +11,8 @@ const structuredData = {
   "image": "https://mobile-founders.com/useful-links.jpg",
   "author": {
     "@type": "Person",
-    "name": "Mobile Founders Community",
-    "url": "https://mobile-founders.com"
+    "name": "Thomas BCN",
+    "url": "https://twitter.com/Thomasbcn"
   },
   "publisher": {
     "@type": "Organization",
@@ -344,11 +344,19 @@ export default function UsefulLinks() {
               
               <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
                 <User className="h-4 w-4" />
-                <span>Curated by Mobile Founders Community</span>
+                <span>Curated by </span>
+                <a 
+                  href="https://twitter.com/Thomasbcn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Thomas BCN
+                </a>
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                A comprehensive collection of mobile marketing resources covering subscriptions, Apple Search Ads, iOS 14 changes, industry trends, and expert insights. These resources have been curated from industry presentations, publications, and case studies.
+                A comprehensive collection of mobile marketing resources covering subscriptions, Apple Search Ads, iOS 14 changes, industry trends, and expert insights. These resources represent years of Thomas BCN&apos;s work in mobile marketing, including presentations, publications, and case studies from 2017-2023.
               </p>
             </header>
 
@@ -405,8 +413,8 @@ export default function UsefulLinks() {
             <section className="mt-12 pt-8 border-t not-prose">
               <h2 className="text-2xl font-semibold text-foreground mb-4">About This Collection</h2>
               <p className="text-base leading-relaxed text-muted-foreground">
-                This curated collection represents years of mobile marketing expertise, covering key topics from subscription monetization to iOS privacy changes. 
-                The resources span presentations, publications, podcasts, and case studies that have shaped mobile marketing strategies from 2017 to 2023.
+                This curated collection represents years of mobile marketing expertise from Thomas BCN, covering key topics from subscription monetization to iOS privacy changes. 
+                The resources span his presentations, publications, podcasts, and case studies that have shaped mobile marketing strategies from 2017 to 2023.
               </p>
             </section>
           </article>

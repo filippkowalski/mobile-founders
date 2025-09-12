@@ -67,8 +67,8 @@ const articles = [
     title: "Useful Links: Curated Mobile Marketing Resources",
     description: "A comprehensive collection of mobile marketing resources covering subscriptions, Apple Search Ads, iOS 14 changes, industry trends, and expert insights from 2017-2023.",
     date: "September 11, 2025",
-    author: "Mobile Founders Community",
-    authorHandle: "",
+    author: "Thomas BCN",
+    authorHandle: "@Thomasbcn",
     readTime: "Resource Collection",
     tags: ["Resources", "ASA", "Subscriptions", "iOS 14", "Industry Trends", "Links"],
     isExternal: false
