@@ -36,18 +36,6 @@ const structuredData = {
 const resourceCategories = {
   "Subscriptions": [
     {
-      title: "Incremental Subs Panel: Click to Subscribe?",
-      url: "https://bit.ly/39IBuO8"
-    },
-    {
-      title: "Subclub: App Marketing Post IDFA",
-      url: "https://bit.ly/2Qow05l"
-    },
-    {
-      title: "SubHub Podcast #8",
-      url: "https://bit.ly/2YNRjB9"
-    },
-    {
       title: "Subclub Office Hours: Price Testing & Experiments",
       url: "#",
       description: "Event recording"
@@ -56,29 +44,9 @@ const resourceCategories = {
       title: "MGS: Subscription Apps RAMA, from Acquisition to Revenue",
       url: "#",
       description: "Slides on-demand"
-    },
-    {
-      title: "MDM: How to Win with Subscriptions",
-      url: "https://bit.ly/3f5pNoq"
-    },
-    {
-      title: "MAMA São Paulo: Subs Apps Fundamentals",
-      url: "https://bit.ly/3rbSZx0"
-    },
-    {
-      title: "AGS Berlin: Subs Apps Fundamentals",
-      url: "https://bit.ly/36Cfvrd"
     }
   ],
   "Apple Search Ads (ASA)": [
-    {
-      title: "MUA Show: How to Win with ASA Post-IDFA",
-      url: "https://bit.ly/3m3mP67"
-    },
-    {
-      title: "MADV9: Apple Ads Controversies",
-      url: "https://bit.ly/3fvcHzC"
-    },
     {
       title: "Searchads.com: ASA, What to Expect in 2021",
       url: "https://bit.ly/3tzVawq"
@@ -91,47 +59,11 @@ const resourceCategories = {
       description: "Conference presentation"
     },
     {
-      title: "Singular: SKAdNetwork & ATT, How to Tackle Key Challenges",
-      url: "https://bit.ly/3fvyMxX"
-    },
-    {
-      title: "MobileAction: UA After iOS 14.5",
-      url: "https://bit.ly/3froq2c"
-    },
-    {
       title: "MDM: Why Doesn't Google Have to Show ATT?",
       url: "https://bit.ly/3bzXrQf"
-    },
-    {
-      title: "MADV8: #RANTT",
-      url: "https://bit.ly/3v3Xa0r"
-    },
-    {
-      title: "MADV: IDFA0, The Time is Now",
-      url: "https://bit.ly/2SWfH0g"
-    },
-    {
-      title: "Splitmetrics: New Era in Mobile Marketing",
-      url: "https://bit.ly/3oO5o8F"
-    },
-    {
-      title: "RocketShipHQ Guide to a Post IDFA World",
-      url: "https://bit.ly/3cBvedL"
-    },
-    {
-      title: "AGS: 30+ Experts' Thoughts on IDFA Changes",
-      url: "https://bit.ly/3asuapP"
     }
   ],
   "2021 Trends": [
-    {
-      title: "Splitmetrics: The Future of Mobile Ads",
-      url: "https://bit.ly/33Ycfo2"
-    },
-    {
-      title: "APS Berlin: Role & Skills of Smart App Marketers",
-      url: "https://bit.ly/3apHhIq"
-    },
     {
       title: "Incrmntl & Vungle: 2021 & Beyond",
       url: "https://bit.ly/2MKnb3Q"
@@ -185,127 +117,7 @@ const resourceCategories = {
       title: "Singular - ASO, Subscriptions, Tool Stack & the Duopoly",
       url: "https://bit.ly/31RdfIJ"
     },
-    {
-      title: "Remerge/Apptivate - Building a Strong Marketing Stack",
-      url: "https://bit.ly/2YHzKyp"
-    },
-    {
-      title: "Splitmetrics - What's Next in UA",
-      url: "https://bit.ly/2RLndIP"
-    },
-    {
-      title: "Appsflyer - The Organic Uplift",
-      url: "https://bit.ly/36AHwgp"
-    },
-    {
-      title: "Appsflyer - ASA: What's My True ROAS",
-      url: "https://bit.ly/2YSfGcV"
-    },
-    {
-      title: "MobileGrowthStack - Acquiring Better Users",
-      url: "https://bit.ly/2PyqMiE"
-    },
-    {
-      title: "TheFamily - Setting Up the Mobile Growth Machine",
-      url: "https://bit.ly/2sjJ7bq"
-    },
-    {
-      title: "AppFollow - ASO in 2020",
-      url: "https://bit.ly/2PBlGCq"
-    },
-    {
-      title: "MobileDevMemo - The Era of Algorithmic Marketing",
-      url: "https://bit.ly/2LPFmBm"
-    },
-    {
-      title: "Mobile Growth Nightmares Podcast",
-      url: "https://apple.co/36AHbu9"
-    }
-  ],
-  "Case Studies": [
-    {
-      title: "Facebook Case Study",
-      url: "https://bit.ly/36xe8au"
-    },
-    {
-      title: "Pinterest Case Study",
-      url: "https://bit.ly/35jAYT8"
-    },
-    {
-      title: "Snapchat Case Study",
-      url: "https://bit.ly/2PFZU0s"
-    },
-    {
-      title: "Outbrain Case Study",
-      url: "https://bit.ly/2rxujpM"
-    },
-    {
-      title: "Mirigrowth Case Study",
-      url: "https://bit.ly/2tcVdnf"
-    }
-  ],
-  "Speaking Engagements": [
-    {
-      title: "SplitMetrics: App Growth Talks",
-      url: "https://bit.ly/3pG7x7M"
-    },
-    {
-      title: "MobileUAshow: The Mysterious LAT & How to Tame It",
-      url: "https://bit.ly/3oLxRfk"
-    },
-    {
-      title: "AppGrowthSummit Virtual: Subscriptions Fundamentals",
-      url: "https://bit.ly/2BIuvXN"
-    },
-    {
-      title: "ASOconference Berlin: ASO - The Game Has Changed",
-      url: "https://bit.ly/2mDLfb2"
-    },
-    {
-      title: "What's Next in UA",
-      url: "https://bit.ly/2lHgSjM"
-    },
-    {
-      title: "Emerging UA Channels",
-      url: "http://bit.ly/2xDtQRR"
-    },
-    {
-      title: "Apple Search Ads",
-      url: "http://bit.ly/2qX9ptD"
-    },
-    {
-      title: "ASO Reviews & Ratings",
-      url: "http://bit.ly/1sN85uh"
-    },
-    {
-      title: "TheFamily Berlin: RARRA",
-      url: "http://bit.ly/2tV3MOz"
-    },
-    {
-      title: "Pinterest Ads",
-      url: "https://bit.ly/2EcmqKa"
-    },
-    {
-      title: "ASA Workshop",
-      url: "http://bit.ly/2h5jrsz"
-    },
-    {
-      title: "A/B Testing Your App Listing",
-      url: "http://bit.ly/29sSJXd"
-    },
-    {
-      title: "Reviews: Impact & Leverage",
-      url: "http://bit.ly/1NEdb3w"
-    },
-    {
-      title: "MAMA: ASA - What's My True ROAS",
-      url: "http://bit.ly/2xrcloA"
-    },
-    {
-      title: "MAMA: Linking ASO & ASA",
-      url: "http://hub.appsflyer.com/de/mamaberlin"
-    }
-  ]
+    
 };
 
 export default function UsefulLinks() {
