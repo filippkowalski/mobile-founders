@@ -7,11 +7,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const articles = [
   {
     id: "meta-ads-budget-strategy",
-    title: "Meta Ads Budget Strategy: Expert Insights from $10K+ Spenders",
-    description: "Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies based on community discussion.",
+    title: "Meta Ads Budget Strategy: Expert Insights from Experienced Practitioners",
+    description: "Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies for mobile app marketing.",
     date: "September 11, 2025",
-    author: "Ivan Sparrow & Thomas BCN",
-    authorHandle: "@ivesparrowai",
+    author: "Mobile Founders Community",
+    authorHandle: "",
     readTime: "12 min read",
     tags: ["Meta Ads", "Budget Planning", "Campaign Strategy", "User Acquisition", "Community Insights"],
     isExternal: false

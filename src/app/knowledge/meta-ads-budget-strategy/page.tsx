@@ -6,21 +6,14 @@ import { ArrowLeft, Calendar, User, Target } from "lucide-react";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Meta Ads Budget Strategy: Expert Insights from $10K+ Spenders",
+  "headline": "Meta Ads Budget Strategy: Expert Insights from Experienced Practitioners",
   "description": "Comprehensive guide to Meta Ads budgeting, campaign setup, and optimization strategies from experienced practitioners who've scaled apps to significant ad spend.",
   "image": "https://mobile-founders.com/meta-ads-budget.jpg",
-  "author": [
-    {
-      "@type": "Person", 
-      "name": "Ivan Sparrow",
-      "url": "https://twitter.com/ivesparrowai"
-    },
-    {
-      "@type": "Person",
-      "name": "Thomas BCN", 
-      "url": "https://twitter.com/Thomasbcn"
-    }
-  ],
+  "author": {
+    "@type": "Person",
+    "name": "Mobile Founders Community",
+    "url": "https://mobile-founders.com"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "Mobile Founders",
@@ -71,35 +64,16 @@ export default function MetaAdsBudgetStrategy() {
               </div>
               
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-6">
-                Meta Ads Budget Strategy: Expert Insights from $10K+ Spenders
+                Meta Ads Budget Strategy: Expert Insights from Experienced Practitioners
               </h1>
               
-              <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
-                <div className="flex items-center gap-2">
-                  <User className="h-4 w-4" />
-                  <span>by</span>
-                  <a 
-                    href="https://twitter.com/ivesparrowai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Ivan Sparrow
-                  </a>
-                  <span>&</span>
-                  <a 
-                    href="https://twitter.com/Thomasbcn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Thomas BCN
-                  </a>
-                </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
+                <User className="h-4 w-4" />
+                <span>by Mobile Founders Community</span>
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies. Based on a detailed discussion from the Mobile Founders community.
+                Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies for mobile app marketing.
               </p>
 
               <div className="bg-muted/30 p-6 rounded-lg border">
@@ -120,15 +94,15 @@ export default function MetaAdsBudgetStrategy() {
                 <h2 className="text-2xl font-semibold text-foreground mb-6">The Budget Reality Check</h2>
                 
                 <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-lg p-6 mb-6">
-                  <h3 className="font-semibold text-amber-800 dark:text-amber-200 mb-3">💡 Ivan Sparrow&apos;s $10K Rule</h3>
+                  <h3 className="font-semibold text-amber-800 dark:text-amber-200 mb-3">💡 The $10K Testing Budget</h3>
                   <p className="text-amber-800 dark:text-amber-200 text-sm leading-relaxed">
-                    &quot;When I start Meta, I always plan to spend $10K for tests. You can&apos;t do proper testing with $1-2K. $5K might work if you&apos;re lucky. $10K is the amount you need to be mentally prepared for.&quot;
+                    &quot;When starting Meta Ads, experienced practitioners plan to spend $10K for proper testing. You can&apos;t do comprehensive testing with $1-2K. $5K might work if you&apos;re lucky. $10K is the amount you need to be mentally prepared for.&quot;
                   </p>
                 </div>
 
                 <h3 className="text-xl font-semibold text-foreground mb-4">Why $10K? The Math Behind Testing</h3>
                 <p className="text-base leading-relaxed mb-4">
-                  Ivan breaks down the testing requirements that drive this budget recommendation:
+                  The testing requirements that drive this budget recommendation:
                 </p>
                 
                 <ul className="space-y-3 mb-6">
@@ -164,10 +138,10 @@ export default function MetaAdsBudgetStrategy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-foreground mb-6">Thomas BCN&apos;s Calculated Approach</h2>
+                <h2 className="text-2xl font-semibold text-foreground mb-6">The Calculated Approach</h2>
                 
                 <p className="text-base leading-relaxed mb-4">
-                  Thomas provides a more methodical framework for determining minimum budget based on your specific metrics:
+                  A more methodical framework for determining minimum budget based on your specific metrics:
                 </p>
 
                 <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6 mb-6">
@@ -205,7 +179,7 @@ export default function MetaAdsBudgetStrategy() {
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-6">Campaign Setup Strategy</h2>
                 
-                <h3 className="text-xl font-semibold text-foreground mb-4">Ivan&apos;s Proven Structure</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-4">Proven Campaign Structure</h3>
                 
                 <div className="space-y-4 mb-6">
                   <div className="border-l-4 border-primary pl-4">
@@ -240,7 +214,7 @@ export default function MetaAdsBudgetStrategy() {
                 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="border rounded-lg p-6">
-                    <h3 className="font-semibold text-foreground mb-3">🔥 Ivan&apos;s Warm-up Approach</h3>
+                    <h3 className="font-semibold text-foreground mb-3">🔥 Gradual Warm-up Approach</h3>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li>• Start with install optimization campaign</li>
                       <li>• $20–50 budget for 1 day</li>
@@ -250,7 +224,7 @@ export default function MetaAdsBudgetStrategy() {
                   </div>
                   
                   <div className="border rounded-lg p-6">
-                    <h3 className="font-semibold text-foreground mb-3">⚡ Thomas&apos;s Direct Approach</h3>
+                    <h3 className="font-semibold text-foreground mb-3">⚡ Direct Launch Approach</h3>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li>• Skip warm-up entirely</li>
                       <li>• Go straight to event optimization</li>
@@ -262,7 +236,7 @@ export default function MetaAdsBudgetStrategy() {
 
                 <div className="bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-800 rounded-lg p-4 mb-6">
                   <p className="text-red-800 dark:text-red-200 text-sm">
-                    <strong>Critical Advice:</strong> Both experts agree - never run campaigns optimizing for installs in the long term. Always optimize for your actual conversion event, even if volume is initially low.
+                    <strong>Critical Advice:</strong> Experienced practitioners agree - never run campaigns optimizing for installs in the long term. Always optimize for your actual conversion event, even if volume is initially low.
                   </p>
                 </div>
               </section>
@@ -271,7 +245,7 @@ export default function MetaAdsBudgetStrategy() {
                 <h2 className="text-2xl font-semibold text-foreground mb-6">ASA Integration</h2>
                 
                 <p className="text-base leading-relaxed mb-4">
-                  Both Ivan and Thomas recommend focusing exclusively on <strong>Search Results</strong> for Apple Search Ads when running Meta campaigns.
+                  Experienced practitioners recommend focusing exclusively on <strong>Search Results</strong> for Apple Search Ads when running Meta campaigns.
                 </p>
 
                 <div className="bg-muted/30 p-4 rounded-md border mb-6">
@@ -284,7 +258,7 @@ export default function MetaAdsBudgetStrategy() {
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-6">Optimization Hierarchy</h2>
                 
-                <h3 className="text-xl font-semibold text-foreground mb-4">Ivan&apos;s Priority Framework</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-4">Priority Framework</h3>
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center gap-3 p-3 bg-muted/30 rounded-md">
                     <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold">1</span>
