@@ -61,6 +61,17 @@ const articles = [
     tags: ["Paywalls", "Subscription", "Monetization", "Revenue", "Mobile Apps"],
     isExternal: true,
     externalUrl: "https://swanky-stretch-643.notion.site/Paywalls-Knowledgebase-15259fc7986c80e283a8de787431d057"
+  },
+  {
+    id: "useful-links",
+    title: "Useful Links: Curated Mobile Marketing Resources",
+    description: "A comprehensive collection of mobile marketing resources covering subscriptions, Apple Search Ads, iOS 14 changes, industry trends, and expert insights from 2017-2023.",
+    date: "September 11, 2025",
+    author: "Mobile Founders Community",
+    authorHandle: "",
+    readTime: "Resource Collection",
+    tags: ["Resources", "ASA", "Subscriptions", "iOS 14", "Industry Trends", "Links"],
+    isExternal: false
   }
 ];
 
