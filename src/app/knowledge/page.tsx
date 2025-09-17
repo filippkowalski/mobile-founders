@@ -7,13 +7,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const articles = [
   {
     id: "aso-mystery-article",
-    title: "A Curious Case of ASO: How Ghost Installs Are Haunting the App Store",
-    description: "A deep dive into the mysterious world of keyword install campaigns and their impact on legitimate app developers, revealing underground tactics used to game App Store algorithms.",
+    title: "Keyword Install Manipulation: How ASO Gaming Operations Impact App Store Rankings",
+    description: "Deep dive analysis of keyword install campaigns, their impact on legitimate developers, and the tactics used to manipulate App Store algorithms, based on community investigation and industry insights.",
     date: "September 17, 2025",
     author: "Mobile Founders Community",
     authorHandle: "",
     readTime: "15 min read",
-    tags: ["ASO", "App Store Optimization", "Keyword Installs", "Algorithm Gaming", "Community Investigation"],
+    tags: ["ASO", "App Store Optimization", "Keyword Installs", "Algorithm Gaming", "Mobile Marketing"],
     isExternal: false
   },
   {
