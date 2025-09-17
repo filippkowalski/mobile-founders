@@ -6,6 +6,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const articles = [
   {
+    id: "aso-mystery-article",
+    title: "A Curious Case of ASO: How Ghost Installs Are Haunting the App Store",
+    description: "A deep dive into the mysterious world of keyword install campaigns and their impact on legitimate app developers, revealing underground tactics used to game App Store algorithms.",
+    date: "September 17, 2025",
+    author: "Mobile Founders Community",
+    authorHandle: "",
+    readTime: "15 min read",
+    tags: ["ASO", "App Store Optimization", "Keyword Installs", "Algorithm Gaming", "Community Investigation"],
+    isExternal: false
+  },
+  {
     id: "meta-ads-budget-strategy",
     title: "Meta Ads Budget Strategy: Expert Insights from Experienced Practitioners",
     description: "Real-world insights from experienced Meta Ads practitioners on budget planning, campaign setup, and optimization strategies for mobile app marketing.",
