@@ -1,8 +1,9 @@
 "use client";
 
+/* eslint-disable react/no-unescaped-entities */
+
 import Link from "next/link";
-import { ArrowLeft, Calendar, User, TrendingUp } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import { ArrowLeft, Calendar, User } from "lucide-react";
 
 const structuredData = {
   "@context": "https://schema.org",
