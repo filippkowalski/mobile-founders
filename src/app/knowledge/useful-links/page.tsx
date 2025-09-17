@@ -116,8 +116,8 @@ const resourceCategories = {
     {
       title: "Singular - ASO, Subscriptions, Tool Stack & the Duopoly",
       url: "https://bit.ly/31RdfIJ"
-    },
-    
+    }
+  ]
 };
 
 export default function UsefulLinks() {
